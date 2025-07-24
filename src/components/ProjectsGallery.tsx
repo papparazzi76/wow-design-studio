@@ -1,16 +1,16 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { Button } from "@/components/ui/button";
-import projectLaTentacion from "@/assets/projects/project-la-tentacion.jpg";
-import projectBienestarNatural from "@/assets/projects/project-bienestar-natural.jpg";
-import projectTulsi from "@/assets/projects/project-tulsi.jpg";
-import projectImprentaCeleste from "@/assets/projects/project-imprenta-celeste.jpg";
-import projectProptools from "@/assets/projects/project-proptools.jpg";
-import projectFutbolCommunity from "@/assets/projects/project-futbol-community.jpg";
-import projectGastroLava from "@/assets/projects/project-gastro-lava.jpg";
-import projectEstudioPortfolio from "@/assets/projects/project-estudio-portfolio.jpg";
-import projectRebecaBruna from "@/assets/projects/project-rebeca-bruna.jpg";
-import projectValladolidTurismo from "@/assets/projects/project-valladolid-turismo.jpg";
+import projectLaTentacion from "@/assets/projects/Captura de pantalla 2025-07-24 112226.png";
+import projectBienestarNatural from "@/assets/projects/Captura de pantalla 2025-07-24 112325.png";
+import projectTulsi from "@/assets/projects/Captura de pantalla 2025-07-24 112422.png";
+import projectImprentaCeleste from "@/assets/projects/Captura de pantalla 2025-07-24 112444.png";
+import projectProptools from "@/assets/projects/Captura de pantalla 2025-07-24 112536.png";
+import projectFutbolCommunity from "@/assets/Captura de pantalla 2025-07-24 112611.png";
+import projectGastroLava from "@/assets/projects/Captura de pantalla 2025-07-24 112643.png";
+import projectEstudioPortfolio from "@/assets/projects/Captura de pantalla 2025-07-24 112804.png";
+import projectRebecaBruna from "@/assets/projects/Captura de pantalla 2025-07-24 112835.png";
+import projectValladolidTurismo from "@/assets/Captura de pantalla 2025-07-24 113000.png";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -19,7 +19,7 @@ const ProjectsGallery = () => {
     {
       id: 1,
       title: "La Tentación",
-      description: "Sitio web vibrante para empresa de gofres premium con experiencia visual atractiva y sistema de pedidos online.",
+      description: "Sitio web vibrante para empresa de gofres premium con experiencia visual atractiva.",
       image: projectLaTentacion,
       category: "E-commerce",
       technologies: ["React", "Node.js", "Stripe", "MongoDB"],
@@ -28,7 +28,7 @@ const ProjectsGallery = () => {
     },
     {
       id: 2,
-      title: "Bienestar Natural",
+      title: "Solo por hoy",
       description: "Plataforma de bienestar integral con reservas online, terapias naturales y experiencia de usuario serena.",
       image: projectBienestarNatural,
       category: "Bienestar",
@@ -38,7 +38,7 @@ const ProjectsGallery = () => {
     },
     {
       id: 3,
-      title: "Tulsi - Galería de Sabores",
+      title: "Tulsi - Indian Restaurant",
       description: "Sitio web elegante para restaurante indio con galería visual de platos y sistema de reservas integrado.",
       image: projectTulsi,
       category: "Restaurante",
@@ -48,7 +48,7 @@ const ProjectsGallery = () => {
     },
     {
       id: 4,
-      title: "Imprenta Celeste",
+      title: "Imprenta Gráficas Celeste",
       description: "Portal corporativo para servicios de impresión con calculadora de precios y gestión de pedidos automatizada.",
       image: projectImprentaCeleste,
       category: "Corporativo",
@@ -68,7 +68,7 @@ const ProjectsGallery = () => {
     },
     {
       id: 6,
-      title: "Fútbol Community",
+      title: "11 contra once",
       description: "Plataforma de comunidad futbolística con gaming, predicciones y recompensas para aficionados.",
       image: projectFutbolCommunity,
       category: "Gaming",
@@ -108,7 +108,7 @@ const ProjectsGallery = () => {
     },
     {
       id: 10,
-      title: "Turismo Valladolid",
+      title: "Así es Valladolid",
       description: "Portal turístico oficial con experiencias inmersivas, videos interactivos y guías culturales completas.",
       image: projectValladolidTurismo,
       category: "Turismo",
