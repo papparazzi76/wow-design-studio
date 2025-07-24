@@ -1,16 +1,16 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { Button } from "@/components/ui/button";
-import projectLaTentacion from "@/assets/projects/Captura de pantalla 2025-07-24 112226.png";
-import projectBienestarNatural from "@/assets/projects/Captura de pantalla 2025-07-24 112325.png";
-import projectTulsi from "@/assets/projects/Captura de pantalla 2025-07-24 112422.png";
-import projectImprentaCeleste from "@/assets/projects/Captura de pantalla 2025-07-24 112444.png";
-import projectProptools from "@/assets/projects/Captura de pantalla 2025-07-24 112536.png";
-import projectFutbolCommunity from "@/assets/projects/Captura de pantalla 2025-07-24 112611.png";
-import projectGastroLava from "@/assets/projects/Captura de pantalla 2025-07-24 112643.png";
-import projectEstudioPortfolio from "@/assets/projects/Captura de pantalla 2025-07-24 112804.png";
-import projectRebecaBruna from "@/assets/projects/Captura de pantalla 2025-07-24 112835.png";
-import projectValladolidTurismo from "@/assets/projects/Captura de pantalla 2025-07-24 113000.png";
+import projectLaTentacion from "@/assets/projects/project-la-tentacion.jpg";
+import projectBienestarNatural from "@/assets/projects/project-bienestar-natural.jpg";
+import projectTulsi from "@/assets/projects/project-tulsi.jpg";
+import projectImprentaCeleste from "@/assets/projects/project-imprenta-celeste.jpg";
+import projectProptools from "@/assets/projects/project-proptools.jpg";
+import projectFutbolCommunity from "@/assets/projects/project-futbol-community.jpg";
+import projectGastroLava from "@/assets/projects/project-gastro-lava.jpg";
+import projectEstudioPortfolio from "@/assets/projects/project-estudio-portfolio.jpg";
+import projectRebecaBruna from "@/assets/projects/project-rebeca-bruna.jpg";
+import projectValladolidTurismo from "@/assets/projects/project-valladolid-turismo.jpg";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
