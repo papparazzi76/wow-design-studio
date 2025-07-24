@@ -1,10 +1,16 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { Button } from "@/components/ui/button";
-import projectEcommerce from "@/assets/project-ecommerce.jpg";
-import projectCorporate from "@/assets/project-corporate.jpg";
-import projectPortfolio from "@/assets/project-portfolio.jpg";
-import projectApp from "@/assets/project-app.jpg";
+import projectLaTentacion from "@/assets/project-la-tentacion.jpg";
+import projectBienestarNatural from "@/assets/project-bienestar-natural.jpg";
+import projectTulsi from "@/assets/project-tulsi.jpg";
+import projectImprentaCeleste from "@/assets/project-imprenta-celeste.jpg";
+import projectProptools from "@/assets/project-proptools.jpg";
+import projectFutbolCommunity from "@/assets/project-futbol-community.jpg";
+import projectGastroLava from "@/assets/project-gastro-lava.jpg";
+import projectEstudioPortfolio from "@/assets/project-estudio-portfolio.jpg";
+import projectRebecaBruna from "@/assets/project-rebeca-bruna.jpg";
+import projectValladolidTurismo from "@/assets/project-valladolid-turismo.jpg";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -12,9 +18,9 @@ const ProjectsGallery = () => {
   const projects = [
     {
       id: 1,
-      title: "Tienda Fashion Premium",
-      description: "E-commerce de lujo con experiencia de compra inmersiva, carrito inteligente y sistema de recomendaciones personalizado.",
-      image: projectEcommerce,
+      title: "La Tentación",
+      description: "Sitio web vibrante para empresa de gofres premium con experiencia visual atractiva y sistema de pedidos online.",
+      image: projectLaTentacion,
       category: "E-commerce",
       technologies: ["React", "Node.js", "Stripe", "MongoDB"],
       demoUrl: "#",
@@ -22,37 +28,97 @@ const ProjectsGallery = () => {
     },
     {
       id: 2,
-      title: "Corporate Solutions",
-      description: "Sitio corporativo moderno con dashboard de analytics, CRM integrado y portal de clientes automatizado.",
-      image: projectCorporate,
-      category: "Corporativo",
+      title: "Bienestar Natural",
+      description: "Plataforma de bienestar integral con reservas online, terapias naturales y experiencia de usuario serena.",
+      image: projectBienestarNatural,
+      category: "Bienestar",
       technologies: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
       demoUrl: "#",
       caseStudyUrl: "#"
     },
     {
       id: 3,
-      title: "Portfolio Creativo",
-      description: "Portfolio interactivo para artista digital con galería dinámica, efectos 3D y experiencia inmersiva única.",
-      image: projectPortfolio,
-      category: "Portfolio",
-      technologies: ["React", "Three.js", "GSAP", "Vercel"],
+      title: "Tulsi - Galería de Sabores",
+      description: "Sitio web elegante para restaurante indio con galería visual de platos y sistema de reservas integrado.",
+      image: projectTulsi,
+      category: "Restaurante",
+      technologies: ["React", "Sanity CMS", "Vercel", "Stripe"],
       demoUrl: "#",
       caseStudyUrl: "#"
     },
     {
       id: 4,
-      title: "FinTech Mobile App",
-      description: "Aplicación financiera con UI/UX premium, seguridad bancaria y experiencia de usuario excepcional.",
-      image: projectApp,
-      category: "App Móvil",
-      technologies: ["React Native", "Node.js", "JWT", "Redis"],
+      title: "Imprenta Celeste",
+      description: "Portal corporativo para servicios de impresión con calculadora de precios y gestión de pedidos automatizada.",
+      image: projectImprentaCeleste,
+      category: "Corporativo",
+      technologies: ["Vue.js", "Laravel", "MySQL", "PayPal"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 5,
+      title: "PropTools",
+      description: "Herramientas profesionales para venta de inmuebles con IA integrada y gestión completa de propiedades.",
+      image: projectProptools,
+      category: "Inmobiliaria",
+      technologies: ["React", "Python", "Django", "AI/ML"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 6,
+      title: "Fútbol Community",
+      description: "Plataforma de comunidad futbolística con gaming, predicciones y recompensas para aficionados.",
+      image: projectFutbolCommunity,
+      category: "Gaming",
+      technologies: ["React", "Node.js", "WebSocket", "Redis"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 7,
+      title: "Gastro Lava",
+      description: "Sitio web sofisticado para restaurante gourmet con ambiente elegante y experiencia culinaria premium.",
+      image: projectGastroLava,
+      category: "Restaurante",
+      technologies: ["Next.js", "Contentful", "Vercel", "Analytics"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 8,
+      title: "Estudio Creativo",
+      description: "Portfolio minimalista para estudio de diseño con showcase de proyectos y experiencia visual limpia.",
+      image: projectEstudioPortfolio,
+      category: "Portfolio",
+      technologies: ["React", "Three.js", "GSAP", "Netlify"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 9,
+      title: "Rebeca H. Bruña",
+      description: "Portal inmobiliario de lujo especializado en propiedades exclusivas en Valladolid con búsqueda avanzada.",
+      image: projectRebecaBruna,
+      category: "Inmobiliaria",
+      technologies: ["React", "Node.js", "MongoDB", "Maps API"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 10,
+      title: "Turismo Valladolid",
+      description: "Portal turístico oficial con experiencias inmersivas, videos interactivos y guías culturales completas.",
+      image: projectValladolidTurismo,
+      category: "Turismo",
+      technologies: ["Vue.js", "Strapi", "Video API", "PWA"],
       demoUrl: "#",
       caseStudyUrl: "#"
     }
   ];
 
-  const categories = ["all", "E-commerce", "Corporativo", "Portfolio", "App Móvil"];
+  const categories = ["all", "E-commerce", "Bienestar", "Restaurante", "Corporativo", "Inmobiliaria", "Gaming", "Portfolio", "Turismo"];
 
   const filteredProjects = activeFilter === "all" 
     ? projects 
@@ -94,7 +160,7 @@ const ProjectsGallery = () => {
         </div>
 
         {/* Projects grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <div
               key={project.id}
