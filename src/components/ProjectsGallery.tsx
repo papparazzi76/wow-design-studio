@@ -6,11 +6,11 @@ import projectBienestarNatural from "@/assets/projects/Captura de pantalla 2025-
 import projectTulsi from "@/assets/projects/Captura de pantalla 2025-07-24 112422.png";
 import projectImprentaCeleste from "@/assets/projects/Captura de pantalla 2025-07-24 112444.png";
 import projectProptools from "@/assets/projects/Captura de pantalla 2025-07-24 112536.png";
-import projectFutbolCommunity from "@/assets/Captura de pantalla 2025-07-24 112611.png";
+import projectFutbolCommunity from "@/assets/projects/Captura de pantalla 2025-07-24 112611.png";
 import projectGastroLava from "@/assets/projects/Captura de pantalla 2025-07-24 112643.png";
 import projectEstudioPortfolio from "@/assets/projects/Captura de pantalla 2025-07-24 112804.png";
 import projectRebecaBruna from "@/assets/projects/Captura de pantalla 2025-07-24 112835.png";
-import projectValladolidTurismo from "@/assets/Captura de pantalla 2025-07-24 113000.png";
+import projectValladolidTurismo from "@/assets/projects/Captura de pantalla 2025-07-24 113000.png";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
