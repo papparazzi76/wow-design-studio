@@ -1,4 +1,5 @@
 import { Instagram, Twitter, Linkedin, Github, Mail, Phone, MapPin } from "lucide-react";
+import Logo from "/LOGOTRAZOb.png"; // Importamos el logo blanco
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,15 +12,13 @@ const Footer = () => {
           {/* Brand section */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold gradient-text mb-2">
-                Design Studio
-              </h3>
+              <img src={Logo} alt="Logo de Trazo Studio" className="h-8 mb-4" />
               <p className="text-muted-foreground leading-relaxed">
-                Creamos experiencias digitales extraordinarias que transforman 
+                Creamos experiencias digitales extraordinarias que transforman
                 ideas en realidades impactantes.
               </p>
             </div>
-            
+
             {/* Social links */}
             <div className="flex gap-4">
               {[
@@ -46,15 +45,15 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 "Desarrollo Web",
-                "Diseño UI/UX", 
+                "Diseño UI/UX",
                 "Apps Móviles",
                 "E-commerce",
                 "Consultoría Digital",
                 "Optimización SEO"
               ].map((service) => (
                 <li key={service}>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="text-muted-foreground hover:text-accent transition-colors duration-300 hover:gradient-text"
                   >
                     {service}
@@ -77,8 +76,8 @@ const Footer = () => {
                 "Contacto"
               ].map((item) => (
                 <li key={item}>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="text-muted-foreground hover:text-accent transition-colors duration-300 hover:gradient-text"
                   >
                     {item}
@@ -99,21 +98,21 @@ const Footer = () => {
                   <p>28001 Madrid, España</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-                <a 
-                  href="mailto:hola@designstudio.com" 
+                <a
+                  href="mailto:hola@designstudio.com"
                   className="text-muted-foreground hover:text-accent transition-colors"
                 >
                   hola@designstudio.com
                 </a>
               </div>
-              
+
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <a 
-                  href="tel:+34900123456" 
+                <a
+                  href="tel:+34900123456"
                   className="text-muted-foreground hover:text-accent transition-colors"
                 >
                   +34 900 123 456
@@ -129,7 +128,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm">
               © {currentYear} Design Studio. Todos los derechos reservados.
             </p>
-            
+
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
                 Política de Privacidad
