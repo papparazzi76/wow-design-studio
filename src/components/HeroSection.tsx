@@ -43,7 +43,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-center gap-2 mb-6">
               <Sparkles className="w-6 h-6 text-accent animate-glow" />
               <span className="text-accent font-semibold tracking-wider uppercase text-sm">
-                Design Studio Premium
+                Trazo Studio Design
               </span>
               <Sparkles className="w-6 h-6 text-accent animate-glow" />
             </div>
@@ -78,7 +78,7 @@ const HeroSection = () => {
               size="xl"
               className="group"
             >
-              Solicitar Cotización
+              Solicitar Presupuesto
               <Sparkles className="w-5 h-5 group-hover:rotate-12 transition-transform" />
             </Button>
           </div>
