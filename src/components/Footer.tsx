@@ -1,5 +1,5 @@
 import { Instagram, Twitter, Linkedin, Github, Mail, Phone, MapPin } from "lucide-react";
-import Logo from "/LOGOTRAZOb.png"; // Importamos el logo blanco
+import Logo from "@/assets/LOGOTRAZOb.png"; // RUTA CORREGIDA
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
