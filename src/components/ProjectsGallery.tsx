@@ -11,9 +11,9 @@ import projectGastroLava from "@/assets/projects/Captura de pantalla 2025-07-24 
 import projectEstudioPortfolio from "@/assets/projects/Captura de pantalla 2025-07-24 112804.png";
 import projectRebecaBruna from "@/assets/projects/Captura de pantalla 2025-07-24 112835.png";
 import projectValladolidTurismo from "@/assets/projects/Captura de pantalla 2025-07-24 113000.png";
-import projectIadomus from "@/assets/projects/project-iadomus.jpg";
-import projectMagoTono from "@/assets/projects/project-mago-tono.jpg";
-import projectChefMariscal from "@/assets/projects/project-chef-mariscal.jpg";
+import projectIadomus from "@/assets/projects/Captura de pantalla 2025-07-25 084331.png";
+import projectMagoTono from "@/assets/projects/Captura de pantalla 2025-07-25 084440.png";
+import projectChefMariscal from "@/assets/projects/Captura de pantalla 2025-07-25 084720.png";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
