@@ -1,6 +1,6 @@
 import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Logo from "/LOGOTRAZOb.png"; // Importamos el logo blanco
+import Logo from "@/assets/LOGOTRAZOb.png"; // RUTA CORREGIDA
 
 const Header = () => {
   const scrollTo = (id: string) => {
