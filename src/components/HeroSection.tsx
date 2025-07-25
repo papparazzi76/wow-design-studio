@@ -11,10 +11,11 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBackground} 
-          alt="Design Studio Workspace" 
+        <img
+          src={heroBackground}
+          alt="Diseñadora web de Trazo Studio trabajando en un proyecto de branding digital"
           className="w-full h-full object-cover opacity-40"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-hero" />
       </div>
@@ -56,24 +57,24 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Transformamos ideas en sitios web extraordinarios que cautivan, 
+              Transformamos ideas en sitios web extraordinarios que cautivan,
               convierten y elevan tu marca al siguiente nivel digital.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button 
-              variant="hero" 
-              size="xl" 
+            <Button
+              variant="hero"
+              size="xl"
               onClick={scrollToProjects}
               className="group"
             >
               Ver Nuestros Proyectos
               <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
             </Button>
-            
-            <Button 
-              variant="glass" 
+
+            <Button
+              variant="glass"
               size="xl"
               className="group"
             >
@@ -92,11 +93,11 @@ const HeroSection = () => {
       </div>
 
       {/* Geometric shapes */}
-      <div className="absolute top-20 left-20 w-32 h-32 border border-primary/20 rounded-full animate-float" 
+      <div className="absolute top-20 left-20 w-32 h-32 border border-primary/20 rounded-full animate-float"
            style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-20 right-20 w-24 h-24 bg-gradient-accent rounded-lg animate-float opacity-20" 
+      <div className="absolute bottom-20 right-20 w-24 h-24 bg-gradient-accent rounded-lg animate-float opacity-20"
            style={{ animationDelay: '4s' }} />
-      <div className="absolute top-1/2 left-10 w-16 h-16 border-2 border-secondary/30 transform rotate-45 animate-float" 
+      <div className="absolute top-1/2 left-10 w-16 h-16 border-2 border-secondary/30 transform rotate-45 animate-float"
            style={{ animationDelay: '1s' }} />
     </section>
   );
