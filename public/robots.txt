@@ -12,3 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Directiva del Sitemap
+Sitemap: https://https://mediumorchid-narwhal-248555.hostingersite.com/sitemap.xml
