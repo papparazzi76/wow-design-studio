@@ -11,6 +11,9 @@ import projectGastroLava from "@/assets/projects/Captura de pantalla 2025-07-24 
 import projectEstudioPortfolio from "@/assets/projects/Captura de pantalla 2025-07-24 112804.png";
 import projectRebecaBruna from "@/assets/projects/Captura de pantalla 2025-07-24 112835.png";
 import projectValladolidTurismo from "@/assets/projects/Captura de pantalla 2025-07-24 113000.png";
+import projectIadomus from "@/assets/projects/project-iadomus.jpg";
+import projectMagoTono from "@/assets/projects/project-mago-tono.jpg";
+import projectChefMariscal from "@/assets/projects/project-chef-mariscal.jpg";
 
 const ProjectsGallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -115,10 +118,40 @@ const ProjectsGallery = () => {
       technologies: ["Vue.js", "Strapi", "Video API", "PWA"],
       demoUrl: "#",
       caseStudyUrl: "#"
+    },
+    {
+      id: 11,
+      title: "Iadomus",
+      description: "Agencia inmobiliaria moderna con sistema avanzado de búsqueda de propiedades y gestión integral.",
+      image: projectIadomus,
+      category: "Inmobiliaria",
+      technologies: ["React", "Node.js", "MongoDB", "Maps API"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 12,
+      title: "El Mago Toño",
+      description: "Sitio web teatral para mago humorista con galería de espectáculos y sistema de contratación de shows.",
+      image: projectMagoTono,
+      category: "Entretenimiento",
+      technologies: ["React", "TypeScript", "Sanity CMS", "Vercel"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
+    },
+    {
+      id: 13,
+      title: "Chef Mariscal",
+      description: "Portal profesional de asesoramiento gastronómico con servicios de consultoría especializada para restaurantes.",
+      image: projectChefMariscal,
+      category: "Restaurante",
+      technologies: ["Next.js", "Strapi", "PostgreSQL", "AWS"],
+      demoUrl: "#",
+      caseStudyUrl: "#"
     }
   ];
 
-  const categories = ["all", "E-commerce", "Bienestar", "Restaurante", "Corporativo", "Inmobiliaria", "Gaming", "Portfolio", "Turismo"];
+  const categories = ["all", "E-commerce", "Bienestar", "Restaurante", "Corporativo", "Inmobiliaria", "Gaming", "Portfolio", "Turismo", "Entretenimiento"];
 
   const filteredProjects = activeFilter === "all" 
     ? projects 
